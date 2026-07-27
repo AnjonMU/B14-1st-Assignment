@@ -70,3 +70,72 @@
         margin-bottom: 50px;
     }
     /* Hero Section design end here */
+    /* Speaker Section Design */
+    
+    .speaker-section {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    
+    .meet-speaker {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        place-items: center;
+        row-gap: 40px;
+    }
+    
+    .speaker img {
+        width: 45vw;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+    
+    .speaker p {
+        font-size: 0.6rem;
+        margin-top: 5px;
+    }
+    
+    .person-depertment {
+        color: #1D4ED8;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    
+    .sperker-text {
+        padding: 10px 20px;
+    }
+    
+    .first-speaker {
+        width: 45vw;
+        border: 1px solid #CACDCC;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(173, 172, 172);
+    }
+    
+    .second-speaker {
+        width: 45vw;
+        border: 1px solid #CACDCC;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(173, 172, 172);
+    }
+    
+    .third-speaker {
+        width: 45vw;
+        border: 1px solid #CACDCC;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(173, 172, 172);
+    }
+    
+    .fourth-speaker {
+        width: 45vw;
+        border: 1px solid #CACDCC;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgb(173, 172, 172);
+    }
+    
+    .speaker-section h1 {
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 3rem;
+    }
