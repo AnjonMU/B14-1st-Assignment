@@ -414,3 +414,59 @@
     .event-content button:hover {
         background-color: #c8cdd8;
     }
+    /* -------- Design Footer------- */
+    
+    .footer {
+        background-color: #111c2f;
+        color: white;
+        margin-top: 50px;
+        padding: 40px 8%;
+    }
+    
+    .footer-top {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    .footer-logo img {
+        width: 3vw;
+    }
+    
+    .social-links {
+        display: flex;
+        gap: 15px;
+    }
+    
+    .social-links a {
+        height: 30px;
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #fff;
+        text-decoration: none;
+        border: 1px solid rgba(255, 255, 255, .3);
+        border-radius: 50%;
+    }
+    
+    .social-links a:hover {
+        background-color: #2b3b5c;
+    }
+    
+    .footer hr {
+        margin-top: 20px;
+        border: none;
+        border-top: 1.5px solid #3d5483;
+    }
+    
+    .copyright {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .copyright p {
+        margin-top: 30px;
+        font-size: 0.7rem;
+        color: #98a2b6;
+    }
